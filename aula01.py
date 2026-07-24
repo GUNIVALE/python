@@ -1,6 +1,7 @@
 def soma(a,b):
     resultado = a + b
+    print("O resultado da soma é: ",resultado)
     return resultado
 
 
-print(soma(10, 20))
+soma(10, 20)
